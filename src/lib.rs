@@ -395,8 +395,6 @@ mod test_close_period;
 #[cfg(test)]
 mod test_compute_share_decomposition_prop;
 #[cfg(test)]
-mod test_compute_share_decomposition_prop;
-#[cfg(test)]
 mod test_disclosure;
 #[cfg(test)]
 mod test_faucet_metrics;
@@ -407,6 +405,8 @@ mod test_faucet_seed;
 mod test_quorum_check;
 #[cfg(test)]
 mod test_reg_limit_delta;
+#[cfg(test)]
+mod test_revenue_range_chunk;
 #[cfg(test)]
 mod test_accrual_reconciliation_prop;
 #[cfg(test)]
@@ -16345,13 +16345,9 @@ impl RevoraRevenueShare {
 }
 
 #[cfg(test)]
-mod test_close_period;
-#[cfg(test)]
 mod test_deferred_priority;
 #[cfg(test)]
 mod test_merkle_proof_depth;
-#[cfg(test)]
-mod test_merkle_root_rotation;
 #[cfg(test)]
 mod test_merkle_root_rotation;
 #[cfg(test)]
